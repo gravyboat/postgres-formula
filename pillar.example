@@ -6,7 +6,7 @@
 postgres:
   lookup:
     pkg: postgresql-9.3
-  db:
-    name: mydb
-    user: mydb
-  pg_hba.conf: salt://postgres/pg_hba.conf
+    db:
+      name: mydb
+      user: mydb
+    pg_hba_conf: salt://postgres/files/pg_hba.conf
